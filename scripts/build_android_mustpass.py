@@ -354,8 +354,7 @@ MASTER_VULKAN_FILTERS			= [
 		include("vulkan-master.txt"),
 		exclude("vulkan-not-applicable.txt"),
 		exclude("vulkan-test-issues.txt"),
-		exclude("vulkan-hw-issues.txt"),
-		exclude("vulkan-driver-issues.txt")
+		exclude("vulkan-hw-issues.txt")
 	]
 MASTER_VULKAN_PKG				= Package(module = VULKAN_MODULE, configurations = [
 		Configuration(name			= "master",
